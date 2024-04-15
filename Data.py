@@ -19,10 +19,10 @@ class Data:
             print("Quitting the bot")
             raise SystemExit
     else:
-        START += f"\n\nBy @disneygrou ♥"
+        START += f"\n\nBy  ♥"
 
     # About Message
-    ABOUT = "**About This Bot** \n\nThis is an Private source Unzip bot by @disneygrou \n\n👨‍🔧updates channel👨‍🔧 : [Disney Team](https://t.me/disneygrou) \n\nFramework : [Pyrogram](docs.pyrogram.org) \n\nLanguage : [Python](www.python.org) \n\nDeveloper : [Doreamonfans1](https://t.me/Doreamonfans1)"
+    ABOUT = "**About This Bot** \n\nThis is an Private source Unzip bot by  \n\n👨‍🔧updates channel👨‍🔧 : [Disney Team](https://t.me/) \n\nFramework : [Pyrogram](docs.pyrogram.org) \n\nLanguage : [Python](www.python.org) \n\nDeveloper :alien"
 
     if Config.OWNER_ID != 0:
         if Config.OWNER_NAME:
@@ -55,7 +55,7 @@ I'll unzip/unrar it and return you it's contents.
 /help - This Message.
 /start - Check if bot is alive.
 
-**Support** - @disneyteamchat or contact owner @doreamonfans1 
+**Support** - @kxzen_bots or contact owner  
 """
     
     MODES = """
@@ -104,7 +104,7 @@ This is bit fast but only recommended for larger files as smaller files won't ha
             InlineKeyboardButton("🤔 About🤔", callback_data="about"),
         ],
         [InlineKeyboardButton("How to Use me ❓", callback_data="help")],
-        [InlineKeyboardButton("👨‍💻Developer👨‍💻", url="https://t.me/doreamonfans1")],
-        [InlineKeyboardButton("👨‍🔧updates channel👨‍🔧", url="https://t.me/disneygrou")],
-        [InlineKeyboardButton("🤖support group🤖", url="https://t.me/disneyteamchat")],
+        [InlineKeyboardButton("👨‍💻Developer👨‍💻", url="https://t.me/kxzen_x")],
+        [InlineKeyboardButton("👨‍🔧updates channel👨‍🔧", url="https://t.me/")],
+        [InlineKeyboardButton("🤖support group🤖", url="https://t.me/")],
     ]
